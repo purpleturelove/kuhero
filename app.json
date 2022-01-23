@@ -1,7 +1,7 @@
 {
     "name": "heroku",
-    "description": "heroku yes",
-    "keywords": ["heroku yes"],
+    "description": "heroku guess",
+    "keywords": ["heroku guess"],
     "env": {
         "AA": {
             "description": "初阶用户只需填写App name后按需修改以下APASSWORD和AUUID两项后点击页面最后的Deploy app按钮即可开始部署",
@@ -16,12 +16,12 @@
             "value": "false"
         },
         "CADDYIndexPage": {
-            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/mixool/kuhero/blob/master/etc/CADDYIndexPage.md",
+            "description": "自定义CADDY部署完成后点击View的显示页面，参考：https://github.com/purpleturelove/kuhero/blob/master/etc/CADDYIndexPage.md",
             "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
         },
         "CADDYCONFIG": {
             "description": "自定义网络地址读取配置运行CADDY，不熟悉CADDY配置的请勿修改",
-            "value": "https://raw.githubusercontent.com/mixool/kuhero/master/etc/Caddyfile"
+            "value": "https://raw.githubusercontent.com/purpleturelove/kuhero/master/etc/Caddyfile"
         },
         "ROBOTS": {
             "description": "ROBOTS爬虫规则开关，默认开启，修改为false时候关闭",
@@ -29,7 +29,7 @@
         },
         "ROBOTSCONFIG": {
             "description": "自定义ROBOTS爬虫配置，默认配置禁止所有爬虫",
-            "value": "https://raw.githubusercontent.com/mixool/kuhero/master/etc/robots.txt"
+            "value": "https://raw.githubusercontent.com/purpleturelove/kuhero/master/etc/robots.txt"
         },
         "SSEnable": {
             "description": "SS开关，默认启用，修改为false时关闭",
@@ -84,7 +84,7 @@
             "value": "https://raw.githubusercontent.com/mixool/kuhero/master/etc/v2ray.json"
         }
     },
-    "website": "https://github.com/mixool/kuhero",
-    "repository": "https://github.com/mixool/kuhero",
+    "website": "https://github.com/purpleturelove/kuhero",
+    "repository": "https://github.com/purpleturelove/kuhero",
     "stack": "container"
 }
